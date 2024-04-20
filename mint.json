@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "OriginStake.com",
   "logo": {
-    "dark": "/logo/dark.svg",
+    "dark": "/logo/OriginStake-logo.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",

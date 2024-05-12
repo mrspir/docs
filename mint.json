@@ -88,9 +88,12 @@
       ]
     },
     {
-      "group": "Blockchains",
+      "group": "CasperNetwork",
       "pages": [
-        "blockchains/test"
+        "blockchains/overview",
+        "blockchains/concepts",
+        "blockchains/tutorials",
+        "blockchains/berachain/overview"
       ]
     }
   ],

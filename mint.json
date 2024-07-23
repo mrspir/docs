@@ -15,6 +15,7 @@
       "to": "#07C983"
     }
   },
+  "theme": "prism",
   "topbarLinks": [
     {
       "name": "Support",
@@ -88,12 +89,44 @@
       ]
     },
     {
-      "group": "CasperNetwork",
+      "group": "Blockchains",
       "pages": [
         "blockchains/overview",
-        "blockchains/concepts",
-        "blockchains/tutorials",
-        "blockchains/berachain/overview"
+        {
+          "group": "Casper Network",
+          "icon": "cubes",
+          "iconType": "light",
+          "pages": [
+            {
+              "group": "Network",
+              "pages": [
+                "blockchains/casper/network/overview",
+                "blockchains/casper/network/validator",
+                "blockchains/casper/network/fullnode"
+              ]
+            },
+            {
+              "group": "Buy/Sell/Deposit",
+              "pages": [
+                "blockchains/casper/buy-sell-deposit/on-huobi",
+                "blockchains/casper/buy-sell-deposit/on-binance"
+              ]
+            },
+            {
+              "group": "Dapps",
+              "pages": [
+                "blockchains/casper/dapps/casper-wallet",
+                "blockchains/casper/dapps/casper-dash"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "Berachain",
+          "pages": [
+            "blockchains/berachain/overview"
+          ]
+        }
       ]
     }
   ],

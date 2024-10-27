@@ -28,29 +28,33 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    },
-    {
       "name": "Blockchains",
       "url": "blockchains"
+    },
+    {
+      "name": "Services",
+      "url": "services"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.originstake.com"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://originstake.com"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://x.com/originstake"
     }
   ],
   "navigation": [
@@ -59,8 +63,7 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development",
-        "test"
+        "development"
       ]
     },
     {
@@ -72,20 +75,6 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
       ]
     },
     {
@@ -123,10 +112,57 @@
         },
         {
           "group": "Berachain",
+          "icon": "bar-chart",
           "pages": [
             "blockchains/berachain/overview"
           ]
+        },
+        {
+          "group": "Namada",
+          "pages": [
+            "blockchains/namada/overview"
+          ]
+        },
+        {
+          "group": "Aura",
+          "pages": [
+            "blockchains/aura/overview"
+          ]
+        },
+        {
+          "group": "Story Protocol",
+          "pages": [
+            "blockchains/story/overview"
+          ]
         }
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Services",
+      "pages": [
+        "services/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
       ]
     }
   ],

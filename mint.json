@@ -22,6 +22,10 @@
       "url": "mailto:hi@originstake.com"
     }
   ],
+  "sidebar": 
+    {
+    "items": "card"
+    },
   "topbarCtaButton": {
     "name": "OGS Home",
     "url": "https://originstake.com"
@@ -82,6 +86,28 @@
       "pages": [
         "blockchains/overview",
         {
+          "group": "Berachain",
+          "icon": "server",
+          "pages": [
+            "blockchains/berachain/overview"
+          ]
+        },
+        {
+          "group": "Story Protocol",
+          "icon": "",
+          "pages": [
+            "blockchains/story/overview"
+          ]
+        },
+        {
+          "group": "Namada",
+          "icon": "server",
+          "pages": [
+            "blockchains/namada/overview"
+          ]
+        },
+
+        {
           "group": "Casper Network",
           "icon": "cubes",
           "iconType": "light",
@@ -111,28 +137,10 @@
           ]
         },
         {
-          "group": "Berachain",
-          "icon": "bar-chart",
-          "pages": [
-            "blockchains/berachain/overview"
-          ]
-        },
-        {
-          "group": "Namada",
-          "pages": [
-            "blockchains/namada/overview"
-          ]
-        },
-        {
           "group": "Aura",
+          "icon": "server",
           "pages": [
             "blockchains/aura/overview"
-          ]
-        },
-        {
-          "group": "Story Protocol",
-          "pages": [
-            "blockchains/story/overview"
           ]
         }
       ]

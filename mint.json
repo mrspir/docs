@@ -70,77 +70,130 @@
         "development"
       ]
     },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
+
     {
       "group": "Blockchains",
       "pages": [
         "blockchains/overview",
         {
           "group": "Berachain",
-          "icon": "server",
+          "icon": "hive",
           "pages": [
-            "blockchains/berachain/overview"
+            "blockchains/berachain/overview",
+            "blockchains/berachain/community",
+            "blockchains/berachain/development",
+            "blockchains/berachain/resource",
+            "blockchains/berachain/assets",
+            "blockchains/berachain/tooling"
           ]
         },
         {
           "group": "Story Protocol",
-          "icon": "",
+          "icon": "hive",
           "pages": [
-            "blockchains/story/overview"
+            "blockchains/story/overview",
+            "blockchains/story/community",
+            "blockchains/story/development",
+            "blockchains/story/resource",
+            "blockchains/story/assets",
+            "blockchains/story/tooling"
           ]
         },
         {
           "group": "Namada",
-          "icon": "server",
+          "icon": "hive",
           "pages": [
-            "blockchains/namada/overview"
+            "blockchains/namada/overview",
+            "blockchains/namada/community",
+            "blockchains/namada/development",
+            "blockchains/namada/resource",
+            "blockchains/namada/assets",
+            "blockchains/namada/tooling"
           ]
         },
 
         {
-          "group": "Casper Network",
-          "icon": "cubes",
-          "iconType": "light",
+          "group": "Casper",
+          "icon": "hive",
           "pages": [
-            {
-              "group": "Network",
-              "pages": [
-                "blockchains/casper/network/overview",
-                "blockchains/casper/network/validator",
-                "blockchains/casper/network/fullnode"
-              ]
-            },
-            {
-              "group": "Buy/Sell/Deposit",
-              "pages": [
-                "blockchains/casper/buy-sell-deposit/on-huobi",
-                "blockchains/casper/buy-sell-deposit/on-binance"
-              ]
-            },
-            {
-              "group": "Dapps",
-              "pages": [
-                "blockchains/casper/dapps/casper-wallet",
-                "blockchains/casper/dapps/casper-dash"
-              ]
-            }
+            "blockchains/casper/overview",
+            "blockchains/casper/community",
+            "blockchains/casper/development",
+            "blockchains/casper/resource",
+            "blockchains/casper/assets",
+            "blockchains/casper/tooling"
           ]
         },
         {
           "group": "Aura",
-          "icon": "server",
+          "icon": "hive",
           "pages": [
-            "blockchains/aura/overview"
+            "blockchains/aura/overview",
+            "blockchains/aura/community",
+            "blockchains/aura/development",
+            "blockchains/aura/resource",
+            "blockchains/aura/assets",
+            "blockchains/aura/tooling"
+          ]
+        },
+        {
+          "group": "Mantrachain",
+          "icon": "hive",
+          "pages": [
+            "blockchains/mantrachain/overview",
+            "blockchains/mantrachain/community",
+            "blockchains/mantrachain/development",
+            "blockchains/mantrachain/resource",
+            "blockchains/mantrachain/assets",
+            "blockchains/mantrachain/tooling"
+          ]
+        },
+        {
+          "group": "Monad",
+          "icon": "hive",
+          "pages": [
+            "blockchains/monad/overview",
+            "blockchains/monad/community",
+            "blockchains/monad/development",
+            "blockchains/monad/resource",
+            "blockchains/monad/assets",
+            "blockchains/monad/tooling"
+          ]
+        },
+        {
+          "group": "Zero Gravity (0G)",
+          "icon": "hive",
+          "pages": [
+            "blockchains/zerogravity/overview",
+            "blockchains/zerogravity/community",
+            "blockchains/zerogravity/development",
+            "blockchains/zerogravity/resource",
+            "blockchains/zerogravity/assets",
+            "blockchains/zerogravity/tooling"
+          ]
+        },
+        {
+          "group": "Penumbra",
+          "icon": "hive",
+          "pages": [
+            "blockchains/penumbra/overview",
+            "blockchains/penumbra/community",
+            "blockchains/penumbra/development",
+            "blockchains/penumbra/resource",
+            "blockchains/penumbra/assets",
+            "blockchains/penumbra/tooling"
+          ]
+        },
+        {
+          "group": "Airchains",
+          "icon": "hive",
+          "pages": [
+            "blockchains/airchains/overview",
+            "blockchains/airchains/community",
+            "blockchains/airchains/development",
+            "blockchains/airchains/resource",
+            "blockchains/airchains/assets",
+            "blockchains/airchains/tooling"
           ]
         }
       ]

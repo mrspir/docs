@@ -10,7 +10,7 @@ description: 'Welcome to the home of OriginStake documentation'
 />
 <img
   className="hidden dark:block"
-  src="/images/hero-dark.svg"
+  src="/images/intro.svg"
   alt="Hero Dark"
 />
 
@@ -27,20 +27,6 @@ Alongside building this knowledge portal, I’m constantly learning new things, 
 Go directly to specific content for the blockchains that OriginStake operates
 
 <CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
 
   <Card
   title="Story Protocol"
@@ -70,9 +56,46 @@ Go directly to specific content for the blockchains that OriginStake operates
 Casper Network is a Layer-1 Proof-of-Stake (PoS) blockchain that is built for real-world applications without sacrificing usability, decentralization, security, or scalability 
   </Card>
 
- {/* <Card
+<Card
     title="Aura Network"
-    href="/blockchains/aura/overview">
+    href="blockchains/aura/overview"
+    horizontal
+    icon={
+      <svg
+          width="100%"
+          height="100%"
+          viewBox="0 0 30 32"
+          style={{ fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: 2 }}
+      >
+        <path d="M27.512,18.765C27.305,18.648 27.099,18.524 26.898,18.4C25.111,17.286 25.111,14.712 26.898,13.6C27.099,13.474 27.305,13.352 27.512,13.235C29.456,12.132 30.123,9.686 29.001,7.775C27.879,5.863 25.392,5.207 23.448,6.311C23.348,6.367 23.247,6.424 23.145,6.478C21.226,7.518 18.842,6.187 18.838,4.034L18.838,3.993C18.838,1.786 17.017,-0.003 14.773,-0.003C12.529,-0.003 10.709,1.786 10.709,3.993L10.709,4.034C10.704,6.189 8.321,7.518 6.401,6.478C6.3,6.424 6.2,6.367 6.099,6.311C4.155,5.207 1.667,5.861 0.545,7.775C-0.577,9.686 0.088,12.132 2.034,13.235C2.242,13.352 2.447,13.476 2.648,13.6C4.435,14.714 4.435,17.288 2.648,18.4C2.447,18.526 2.242,18.648 2.034,18.765C0.09,19.868 -0.577,22.312 0.545,24.225C1.667,26.139 4.155,26.793 6.099,25.689C6.198,25.633 6.3,25.576 6.401,25.522C8.321,24.482 10.704,25.813 10.709,27.966L10.709,28.007C10.709,30.214 12.529,32.003 14.773,32.003C17.017,32.003 18.838,30.214 18.838,28.007L18.838,27.966C18.842,25.811 21.226,24.482 23.145,25.52C23.247,25.574 23.346,25.631 23.448,25.687C25.392,26.791 27.879,26.137 29.001,24.223C30.123,22.312 29.458,19.866 27.512,18.763L27.512,18.765ZM27.278,23.248C26.909,23.878 26.218,24.269 25.476,24.269C25.116,24.269 24.758,24.173 24.442,23.995C21.506,22.329 18.164,21.447 14.773,21.447C11.382,21.447 8.04,22.329 5.105,23.995C4.784,24.178 4.435,24.269 4.071,24.269C3.329,24.269 2.639,23.878 2.268,23.248C1.696,22.273 2.036,21.022 3.028,20.459C8.992,17.073 12.697,10.763 12.697,3.993C12.697,2.868 13.629,1.951 14.773,1.951C15.917,1.951 16.85,2.868 16.85,3.993C16.85,10.763 20.554,17.073 26.518,20.459C26.997,20.733 27.342,21.172 27.486,21.699C27.629,22.227 27.556,22.777 27.278,23.248Z" fill="#e2761b" stroke="#e2761b" strokeLinecap="round" strokeLinejoin="round"/>
+        <defs>
+            <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-8.2917,-19.938,19.938,-8.2917,20.5747,25.2951)">
+                <stop offset="0" style={{ stopColor: 'rgb(255,213,105)', stopOpacity: 1 }}/>
+                <stop offset="0.52" style={{ stopColor: 'rgb(252,142,79)', stopOpacity: 1 }}/>
+                <stop offset="1" style={{ stopColor: 'rgb(255,105,123)', stopOpacity: 1 }}/>
+            </linearGradient>
+        </defs>
+      </svg>
+    }
+>
+</Card>
+
+{/* Monad */}
+ <Card
+    title="Monad"
+    href="blockchains/monad/overview"
+    horizontal
+    icon={
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9999 0C11.3795 0 0 11.3792 0 15.9999C0 20.6206 11.3795 32 15.9999 32C20.6203 32 32 20.6204 32 15.9999C32 11.3794 20.6205 0 15.9999 0ZM13.5066 25.1492C11.5582 24.6183 6.31981 15.455 6.85083 13.5066C7.38185 11.5581 16.545 6.31979 18.4933 6.8508C20.4418 7.38173 25.6802 16.5449 25.1492 18.4934C24.6182 20.4418 15.455 25.6802 13.5066 25.1492Z" fill="#836EF9"/>
+</svg>
+    }>
+</Card>
+{/* Mantra */}
+
+ <Card
+    title="Mantrachain"
+    href="blockchains/mantrachain/overview"
     horizontal
     icon={
       <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" className="h-6 w-6" viewBox="0 0 318.6 318.6">
@@ -93,7 +116,88 @@ Casper Network is a Layer-1 Proof-of-Stake (PoS) blockchain that is built for re
       <path className="st6" d="m267.2 153.5-52.3-15.3 15.9 23.9-23.7 46 31.2-.4h46.5zm-163.6-15.3-52.3 15.3-17.4 54.2h46.4l31.1.4-23.6-46zm71 26.4 3.3-57.7 15.2-41.1h-67.5l15 41.1 3.5 57.7 1.2 18.2.1 44.8h27.7l.2-44.8z"/>
     </svg>
     }>
-</Card> */}
+</Card>
+
+{/* Airchains */}
+
+ <Card
+    title="Airchains"
+    href="blockchains/airchains/overview"
+    horizontal
+    icon={
+      <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" className="h-6 w-6" viewBox="0 0 318.6 318.6">
+      <style>
+        {`.st1,.st6{fill:#e4761b;stroke:#e4761b;stroke-linecap:round;stroke-linejoin:round}.st6{fill:#f6851b;stroke:#f6851b}`}
+      </style>
+      <path fill="#e2761b" stroke="#e2761b" strokeLinecap="round" strokeLinejoin="round" d="m274.1 35.5-99.5 73.9L193 65.8z"/>
+      <path className="st1" d="m44.4 35.5 98.7 74.6-17.5-44.3zm193.9 171.3-26.5 40.6 56.7 15.6 16.3-55.3zm-204.4.9L50.1 263l56.7-15.6-26.5-40.6z"/>
+      <path className="st1" d="m103.6 138.2-15.8 23.9 56.3 2.5-2-60.5zm111.3 0-39-34.8-1.3 61.2 56.2-2.5zM106.8 247.4l33.8-16.5-29.2-22.8zm71.1-16.5 33.9 16.5-4.7-39.3z"/>
+      <path fill="#d7c1b3" stroke="#d7c1b3" strokeLinecap="round" strokeLinejoin="round" d="m211.8 247.4-33.9-16.5 2.7 22.1-.3 9.3zm-105 0 31.5 14.9-.2-9.3 2.5-22.1z"/>
+      <path fill="#233447" stroke="#233447" strokeLinecap="round" strokeLinejoin="round" d="m138.8 193.5-28.2-8.3 19.9-9.1zm40.9 0 8.3-17.4 20 9.1z"/>
+      <path fill="#cd6116" stroke="#cd6116" strokeLinecap="round" strokeLinejoin="round" d="m106.8 247.4 4.8-40.6-31.3.9zM207 206.8l4.8 40.6 26.5-39.7zm23.8-44.7-56.2 2.5 5.2 28.9 8.3-17.4 20 9.1zm-120.2 23.1 20-9.1 8.2 17.4 5.3-28.9-56.3-2.5z"/>
+      <path fill="#e4751f" stroke="#e4751f" strokeLinecap="round" strokeLinejoin="round" d="m87.8 162.1 23.6 46-.8-22.9zm120.3 23.1-1 22.9 23.7-46zm-64-20.6-5.3 28.9 6.6 34.1 1.5-44.9zm30.5 0-2.7 18 1.2 45 6.7-34.1z"/>
+      <path className="st6" d="m179.8 193.5-6.7 34.1 4.8 3.3 29.2-22.8 1-22.9zm-69.2-8.3.8 22.9 29.2 22.8 4.8-3.3-6.6-34.1z"/>
+      <path fill="#c0ad9e" stroke="#c0ad9e" strokeLinecap="round" strokeLinejoin="round" d="m180.3 262.3.3-9.3-2.5-2.2h-37.7l-2.3 2.2.2 9.3-31.5-14.9 11 9 22.3 15.5h38.3l22.4-15.5 11-9z"/>
+      <path fill="#161616" stroke="#161616" strokeLinecap="round" strokeLinejoin="round" d="m177.9 230.9-4.8-3.3h-27.7l-4.8 3.3-2.5 22.1 2.3-2.2h37.7l2.5 2.2z"/>
+      <path fill="#763d16" stroke="#763d16" strokeLinecap="round" strokeLinejoin="round" d="m278.3 114.2 8.5-40.8-12.7-37.9-96.2 71.4 37 31.3 52.3 15.3 11.6-13.5-5-3.6 8-7.3-6.2-4.8 8-6.1zM31.8 73.4l8.5 40.8-5.4 4 8 6.1-6.1 4.8 8 7.3-5 3.6 11.5 13.5 52.3-15.3 37-31.3-96.2-71.4z"/>
+      <path className="st6" d="m267.2 153.5-52.3-15.3 15.9 23.9-23.7 46 31.2-.4h46.5zm-163.6-15.3-52.3 15.3-17.4 54.2h46.4l31.1.4-23.6-46zm71 26.4 3.3-57.7 15.2-41.1h-67.5l15 41.1 3.5 57.7 1.2 18.2.1 44.8h27.7l.2-44.8z"/>
+    </svg>
+    }>
+</Card>
+
+{/* ZeroGravity */}
+
+ <Card
+    title="ZeroGravity"
+    href="blockchains/aura/overview"
+    horizontal
+    icon={
+      <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" className="h-6 w-6" viewBox="0 0 318.6 318.6">
+      <style>
+        {`.st1,.st6{fill:#e4761b;stroke:#e4761b;stroke-linecap:round;stroke-linejoin:round}.st6{fill:#f6851b;stroke:#f6851b}`}
+      </style>
+      <path fill="#e2761b" stroke="#e2761b" strokeLinecap="round" strokeLinejoin="round" d="m274.1 35.5-99.5 73.9L193 65.8z"/>
+      <path className="st1" d="m44.4 35.5 98.7 74.6-17.5-44.3zm193.9 171.3-26.5 40.6 56.7 15.6 16.3-55.3zm-204.4.9L50.1 263l56.7-15.6-26.5-40.6z"/>
+      <path className="st1" d="m103.6 138.2-15.8 23.9 56.3 2.5-2-60.5zm111.3 0-39-34.8-1.3 61.2 56.2-2.5zM106.8 247.4l33.8-16.5-29.2-22.8zm71.1-16.5 33.9 16.5-4.7-39.3z"/>
+      <path fill="#d7c1b3" stroke="#d7c1b3" strokeLinecap="round" strokeLinejoin="round" d="m211.8 247.4-33.9-16.5 2.7 22.1-.3 9.3zm-105 0 31.5 14.9-.2-9.3 2.5-22.1z"/>
+      <path fill="#233447" stroke="#233447" strokeLinecap="round" strokeLinejoin="round" d="m138.8 193.5-28.2-8.3 19.9-9.1zm40.9 0 8.3-17.4 20 9.1z"/>
+      <path fill="#cd6116" stroke="#cd6116" strokeLinecap="round" strokeLinejoin="round" d="m106.8 247.4 4.8-40.6-31.3.9zM207 206.8l4.8 40.6 26.5-39.7zm23.8-44.7-56.2 2.5 5.2 28.9 8.3-17.4 20 9.1zm-120.2 23.1 20-9.1 8.2 17.4 5.3-28.9-56.3-2.5z"/>
+      <path fill="#e4751f" stroke="#e4751f" strokeLinecap="round" strokeLinejoin="round" d="m87.8 162.1 23.6 46-.8-22.9zm120.3 23.1-1 22.9 23.7-46zm-64-20.6-5.3 28.9 6.6 34.1 1.5-44.9zm30.5 0-2.7 18 1.2 45 6.7-34.1z"/>
+      <path className="st6" d="m179.8 193.5-6.7 34.1 4.8 3.3 29.2-22.8 1-22.9zm-69.2-8.3.8 22.9 29.2 22.8 4.8-3.3-6.6-34.1z"/>
+      <path fill="#c0ad9e" stroke="#c0ad9e" strokeLinecap="round" strokeLinejoin="round" d="m180.3 262.3.3-9.3-2.5-2.2h-37.7l-2.3 2.2.2 9.3-31.5-14.9 11 9 22.3 15.5h38.3l22.4-15.5 11-9z"/>
+      <path fill="#161616" stroke="#161616" strokeLinecap="round" strokeLinejoin="round" d="m177.9 230.9-4.8-3.3h-27.7l-4.8 3.3-2.5 22.1 2.3-2.2h37.7l2.5 2.2z"/>
+      <path fill="#763d16" stroke="#763d16" strokeLinecap="round" strokeLinejoin="round" d="m278.3 114.2 8.5-40.8-12.7-37.9-96.2 71.4 37 31.3 52.3 15.3 11.6-13.5-5-3.6 8-7.3-6.2-4.8 8-6.1zM31.8 73.4l8.5 40.8-5.4 4 8 6.1-6.1 4.8 8 7.3-5 3.6 11.5 13.5 52.3-15.3 37-31.3-96.2-71.4z"/>
+      <path className="st6" d="m267.2 153.5-52.3-15.3 15.9 23.9-23.7 46 31.2-.4h46.5zm-163.6-15.3-52.3 15.3-17.4 54.2h46.4l31.1.4-23.6-46zm71 26.4 3.3-57.7 15.2-41.1h-67.5l15 41.1 3.5 57.7 1.2 18.2.1 44.8h27.7l.2-44.8z"/>
+    </svg>
+    }>
+</Card>
+
+{/* Penumbra */}
+
+ <Card
+    title="Penumbra"
+    href="blockchains/penumbra/overview"
+    horizontal
+    icon={
+      <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" className="h-6 w-6" viewBox="0 0 318.6 318.6">
+      <style>
+        {`.st1,.st6{fill:#e4761b;stroke:#e4761b;stroke-linecap:round;stroke-linejoin:round}.st6{fill:#f6851b;stroke:#f6851b}`}
+      </style>
+      <path fill="#e2761b" stroke="#e2761b" strokeLinecap="round" strokeLinejoin="round" d="m274.1 35.5-99.5 73.9L193 65.8z"/>
+      <path className="st1" d="m44.4 35.5 98.7 74.6-17.5-44.3zm193.9 171.3-26.5 40.6 56.7 15.6 16.3-55.3zm-204.4.9L50.1 263l56.7-15.6-26.5-40.6z"/>
+      <path className="st1" d="m103.6 138.2-15.8 23.9 56.3 2.5-2-60.5zm111.3 0-39-34.8-1.3 61.2 56.2-2.5zM106.8 247.4l33.8-16.5-29.2-22.8zm71.1-16.5 33.9 16.5-4.7-39.3z"/>
+      <path fill="#d7c1b3" stroke="#d7c1b3" strokeLinecap="round" strokeLinejoin="round" d="m211.8 247.4-33.9-16.5 2.7 22.1-.3 9.3zm-105 0 31.5 14.9-.2-9.3 2.5-22.1z"/>
+      <path fill="#233447" stroke="#233447" strokeLinecap="round" strokeLinejoin="round" d="m138.8 193.5-28.2-8.3 19.9-9.1zm40.9 0 8.3-17.4 20 9.1z"/>
+      <path fill="#cd6116" stroke="#cd6116" strokeLinecap="round" strokeLinejoin="round" d="m106.8 247.4 4.8-40.6-31.3.9zM207 206.8l4.8 40.6 26.5-39.7zm23.8-44.7-56.2 2.5 5.2 28.9 8.3-17.4 20 9.1zm-120.2 23.1 20-9.1 8.2 17.4 5.3-28.9-56.3-2.5z"/>
+      <path fill="#e4751f" stroke="#e4751f" strokeLinecap="round" strokeLinejoin="round" d="m87.8 162.1 23.6 46-.8-22.9zm120.3 23.1-1 22.9 23.7-46zm-64-20.6-5.3 28.9 6.6 34.1 1.5-44.9zm30.5 0-2.7 18 1.2 45 6.7-34.1z"/>
+      <path className="st6" d="m179.8 193.5-6.7 34.1 4.8 3.3 29.2-22.8 1-22.9zm-69.2-8.3.8 22.9 29.2 22.8 4.8-3.3-6.6-34.1z"/>
+      <path fill="#c0ad9e" stroke="#c0ad9e" strokeLinecap="round" strokeLinejoin="round" d="m180.3 262.3.3-9.3-2.5-2.2h-37.7l-2.3 2.2.2 9.3-31.5-14.9 11 9 22.3 15.5h38.3l22.4-15.5 11-9z"/>
+      <path fill="#161616" stroke="#161616" strokeLinecap="round" strokeLinejoin="round" d="m177.9 230.9-4.8-3.3h-27.7l-4.8 3.3-2.5 22.1 2.3-2.2h37.7l2.5 2.2z"/>
+      <path fill="#763d16" stroke="#763d16" strokeLinecap="round" strokeLinejoin="round" d="m278.3 114.2 8.5-40.8-12.7-37.9-96.2 71.4 37 31.3 52.3 15.3 11.6-13.5-5-3.6 8-7.3-6.2-4.8 8-6.1zM31.8 73.4l8.5 40.8-5.4 4 8 6.1-6.1 4.8 8 7.3-5 3.6 11.5 13.5 52.3-15.3 37-31.3-96.2-71.4z"/>
+      <path className="st6" d="m267.2 153.5-52.3-15.3 15.9 23.9-23.7 46 31.2-.4h46.5zm-163.6-15.3-52.3 15.3-17.4 54.2h46.4l31.1.4-23.6-46zm71 26.4 3.3-57.7 15.2-41.1h-67.5l15 41.1 3.5 57.7 1.2 18.2.1 44.8h27.7l.2-44.8z"/>
+    </svg>
+    }>
+</Card>
 
 </CardGroup>
 
